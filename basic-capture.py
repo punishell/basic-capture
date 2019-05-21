@@ -1,6 +1,7 @@
 import BaseHTTPServer
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 import base64
+import sys
 
 class AuthHandler(SimpleHTTPRequestHandler):
 
